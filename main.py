@@ -25,7 +25,8 @@ class Test(Enum):
     SPEED_TEST_2 = auto()
 
 
-test = Test.SARSA_ELIGIBILITY  # which test to run
+#test = Test.SARSA_ELIGIBILITY  # which test to run
+test = Test.Q_LEARNING # which test to run
 
 maze = np.array([
     [0, 1, 0, 0, 0, 0, 0, 0],
